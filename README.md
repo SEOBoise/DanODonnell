@@ -16,6 +16,8 @@ No package installation or framework build is required. The generated HTML conta
 
 Upload dist/ to a static web host that serves directory index files and 404.html. The optional _headers file is understood by compatible hosts. Retain HTTPS and serve /privacy-policy/ and /terms-of-use/ as directory routes.
 
+The production Cloudflare Pages project publishes `dist/` from the `main` branch.
+
 The Sites preview is owner-private by default. It is not the public launch at danodonnell.net. Complete domain DNS configuration and public audience setup before expecting Google to crawl it. The canonical URL, Open Graph URL, JSON-LD and sitemap all use the user-confirmed https://danodonnell.net.
 
 Before public launch, confirm the privacy policy matches the chosen hosting provider and email/data practices, and update it if analytics, forms or subscriptions are added. The text describes the current minimal site. No analytics or marketing pixels are installed.
